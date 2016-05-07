@@ -4,6 +4,11 @@
 
 *                text=auto
 
+# Handle extensionless files
+/init.d/*           text eol=lf filter=space-tab
+/usr_local_bin/*    text eol=lf filter=space-tab
+
 *.sh             text eol=lf filter=space-tab
 *.ini            text eol=lf filter=space-tab
-*.out.correct    text eol=lf filter=space-tab
+*.py             text eol=lf filter=space-tab
+*.autotrust      text eol=lf filter=space-tab
